@@ -21,6 +21,9 @@ public class Main {
 		System.out.println(lista);
 		lista.eliminarValor(200);
 		System.out.println(lista);
+		lista.eliminarValor(45);
+		System.out.println(lista);
+		
 	}
 	
 

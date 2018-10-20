@@ -109,8 +109,9 @@ public class ListaEnlazada {
 				actual.siguiente = null;
 				return;
 			}
-			actual = actual.siguiente;
 			anterior = actual;
+			actual = actual.siguiente;
+
 		} while (actual != null);
 			
 		throw new Exception("No se ha encontrado el valor!");
